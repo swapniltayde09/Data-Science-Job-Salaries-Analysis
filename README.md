@@ -5,6 +5,10 @@ The project explores key factors influencing compensation and builds a salary pr
 
 This project demonstrates a complete data analytics workflow including data cleaning, feature engineering, exploratory analysis, visualization, and predictive modeling.
 
+## Interactive Dashboard
+
+![Dashboard Preview](outputs/figures/dashboard_preview.png)
+
 ### 🚀 Project Overview
 
 - The demand for data science professionals has grown rapidly in recent years. This project analyzes salary data to answer key questions:
