@@ -1,25 +1,21 @@
-📊 Data Science Salary Analysis & Prediction (2020–2025)
+## 📊 Data Science Salary Analysis & Prediction (2020–2025)
 
 End-to-end Data Analytics project analyzing global Data Science salary trends using Python.
 The project explores key factors influencing compensation and builds a salary prediction model using machine learning.
 
 This project demonstrates a complete data analytics workflow including data cleaning, feature engineering, exploratory analysis, visualization, and predictive modeling.
 
-🚀 Project Overview
+### 🚀 Project Overview
 
-The demand for data science professionals has grown rapidly in recent years. This project analyzes salary data to answer key questions:
-
-What factors influence data science salaries?
-
-Which roles command the highest compensation?
-
-How do salaries vary by experience, company size, and location?
-
-Can salaries be predicted using job-related features?
+- The demand for data science professionals has grown rapidly in recent years. This project analyzes salary data to answer key questions:
+- What factors influence data science salaries?
+- Which roles command the highest compensation?
+- How do salaries vary by experience, company size, and location?
+- Can salaries be predicted using job-related features?
 
 The analysis uses Python-based data science tools to uncover patterns and generate business insights.
 
-📂 Project Structure
+### 📂 Project Structure
 DataScience-Salary-Analysis
 │
 ├── data
@@ -46,18 +42,18 @@ DataScience-Salary-Analysis
 └── reports
     ├── presentation.pptx
     ├── analytics_report.docx
-🧰 Tools & Technologies
 
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-Learn
+### 🧰 Tools & Technologies
+- Python
+    - Pandas
+    - NumPy
+    - Matplotlib
+    - Seaborn
+    - Scikit-Learn
 
 These tools were used for data preprocessing, visualization, statistical analysis, and machine learning modeling.
 
-🔄 Data Analytics Pipeline
+### 🔄 Data Analytics Pipeline
 
 The project follows a structured analytics workflow:
 
@@ -76,105 +72,66 @@ Machine Learning Model
 Business Insights
      ↓
 Dashboard & Reports
-🧹 Data Cleaning & Preparation
+
+### 🧹 Data Cleaning & Preparation
 
 Key preprocessing steps:
+- Checked dataset structure using .info(), .describe()
+- Handled missing values
+- Removed duplicate records
+- Standardized column names
+- Converted categorical data types
+- Standardized salaries using salary_in_usd
+- Reset dataset index and exported cleaned data
 
-Checked dataset structure using .info(), .describe()
-
-Handled missing values
-
-Removed duplicate records
-
-Standardized column names
-
-Converted categorical data types
-
-Standardized salaries using salary_in_usd
-
-Reset dataset index and exported cleaned data
-
-⚙️ Feature Engineering
+### ⚙️ Feature Engineering
 
 New analytical features were created to improve insights and modeling:
-
-experience_level_num
-
-company_size_num
-
-remote_category
-
-salary_band
-
-job_category
-
-years_since_2020
-
-log_salary
+- experience_level_num
+- company_size_num
+- remote_category
+- salary_band
+- job_category
+- years_since_2020
+- log_salary
 
 These engineered features allow deeper analysis of salary drivers.
 
-📊 Exploratory Data Analysis (EDA)
+### 📊 Exploratory Data Analysis (EDA)
 
-EDA was performed to understand salary patterns using visualizations.
+EDA was performed to understand salary patterns using visualizations. Key analyses include:
+    - Salary Distribution
+    - Understanding salary ranges and outliers.
+    - Experience Level Distribution
+    - Comparing salaries across Entry, Mid, Senior, and Executive roles.
+    - Employment Type Analysis
+    - Full-time vs contract vs freelance roles.
+    - Company Size Analysis
+    - Salary variations across small, medium, and large companies.
+    - Remote Work Trends
+    - Impact of remote work on compensation.
+    - Top Data Science Job Roles
+    - Identifying the most common roles in the dataset.
 
-Key analyses include:
-
-Salary Distribution
-
-Understanding salary ranges and outliers.
-
-Experience Level Distribution
-
-Comparing salaries across Entry, Mid, Senior, and Executive roles.
-
-Employment Type Analysis
-
-Full-time vs contract vs freelance roles.
-
-Company Size Analysis
-
-Salary variations across small, medium, and large companies.
-
-Remote Work Trends
-
-Impact of remote work on compensation.
-
-Top Data Science Job Roles
-
-Identifying the most common roles in the dataset.
-
-🔎 Correlation Analysis
-
+### 🔎 Correlation Analysis
 Correlation heatmaps and pairplots were used to examine relationships between variables such as:
-
-Experience level
-
-Company size
-
-Remote ratio
-
-Salary
+    - Experience level
+    - Company size
+    - Remote ratio
+    - Salary
 
 Key finding:
-
 Experience level shows the strongest correlation with salary.
 
-🤖 Salary Prediction Model
-
+### 🤖 Salary Prediction Model
 A Linear Regression model was built using Scikit-Learn to predict salaries.
+    - Features used
+    - Experience level
+    - Company size
+    - Remote work ratio
+    - Years since 2020
+    - Model workflow
 
-Features used
-
-Experience level
-
-Company size
-
-Remote work ratio
-
-Years since 2020
-
-Model workflow
 Train/Test Split
 ↓
 Linear Regression Model
