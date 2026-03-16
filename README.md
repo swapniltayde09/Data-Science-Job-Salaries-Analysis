@@ -57,21 +57,7 @@ These tools were used for data preprocessing, visualization, statistical analysi
 
 The project follows a structured analytics workflow:
 
-Raw Dataset
-     ↓
-Data Cleaning
-     ↓
-Feature Engineering
-     ↓
-Exploratory Data Analysis
-     ↓
-Correlation Analysis
-     ↓
-Machine Learning Model
-     ↓
-Business Insights
-     ↓
-Dashboard & Reports
+Raw Dataset -> Data Cleaning  -> Feature Engineering  -> Exploratory Data Analysis  -> Correlation Analysis Machine Learning Model -> Business Insights  -> Dashboard & Reports
 
 ### 🧹 Data Cleaning & Preparation
 
@@ -119,9 +105,8 @@ Correlation heatmaps and pairplots were used to examine relationships between va
     - Company size
     - Remote ratio
     - Salary
-
-Key finding:
-Experience level shows the strongest correlation with salary.
+    - Key finding: 
+        - Experience level shows the strongest correlation with salary.
 
 ### 🤖 Salary Prediction Model
 A Linear Regression model was built using Scikit-Learn to predict salaries.
@@ -132,104 +117,65 @@ A Linear Regression model was built using Scikit-Learn to predict salaries.
     - Years since 2020
     - Model workflow
 
-Train/Test Split
-↓
-Linear Regression Model
-↓
-Prediction
-↓
-Model Evaluation
-Evaluation Metrics
-
-MAE (Mean Absolute Error)
-
-RMSE (Root Mean Squared Error)
-
-R² Score
+- Train/Test Split  -> Linear Regression Model  -> Prediction  -> Model Evaluation  -> Evaluation Metrics
+    - MAE (Mean Absolute Error)
+    - RMSE (Root Mean Squared Error)
+    - R² Score
 
 📈 Key Insights
 1️⃣ Experience Level Drives Salary
-
 Senior and executive professionals earn significantly more than entry-level roles.
-
 2️⃣ Specialized Roles Pay More
-
-High-paying roles include:
-
-Machine Learning Engineer
-
-AI Engineer
-
-Applied Scientist
-
-Data Science Manager
-
+    - High-paying roles include:
+        - Machine Learning Engineer
+        - AI Engineer
+        - Applied Scientist
+        - Data Science Manager
 3️⃣ Large Companies Offer Higher Compensation
-
 Larger organizations typically offer higher salaries due to scale and infrastructure complexity.
-
 4️⃣ Remote Work Does Not Reduce Salary
-
 Remote roles often pay competitively with on-site positions.
-
 5️⃣ Salaries Are Increasing Over Time
-
 Data science salaries have steadily increased between 2020 and 2025.
 
-📊 Dashboard & Reports
+### 📊 Dashboard & Reports
+- The project includes:
+        - Analytics PowerPoint presentation
+        - Consulting report
+        - CSV summary reports for dashboards
+        - Example reports:
+                - Salary by experience level
+                - Salary by company size
+                - Salary by role
+                - Salary trend over time
 
-The project includes:
-
-Analytics PowerPoint presentation
-
-Portfolio-grade consulting report
-
-CSV summary reports for dashboards
-
-Example reports:
-
-Salary by experience level
-
-Salary by company size
-
-Salary by role
-
-Salary trend over time
-
-📌 Business Impact
-
+### 📌 Business Impact
 The analysis helps organizations:
+    - Benchmark salary offers
+    - Understand data talent market trends
+    - Design competitive compensation strategies
+    - Plan hiring strategies for data teams
 
-Benchmark salary offers
+### 🔮 Future Improvements
+- Potential extensions of the project:
+    - Use advanced models (Random Forest, XGBoost)
+    - Build interactive dashboards (Power BI / Tableau)
+    - Add more datasets from job portals
+    - Include cost-of-living adjustments
+    
+### 👤 Skills demonstrated:
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Data Visualization
+- Machine Learning
+- Business Insights
 
-Understand data talent market trends
+## Run the Analysis in Google Colab
+You can explore the full analysis notebook directly in Google Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19CFGlZqM-bLcX3Atz6lEknepzO73cx71)
 
-Design competitive compensation strategies
-
-Plan hiring strategies for data teams
-
-🔮 Future Improvements
-
-Potential extensions of the project:
-
-Use advanced models (Random Forest, XGBoost)
-
-Build interactive dashboards (Power BI / Tableau)
-
-Add more datasets from job portals
-
-Include cost-of-living adjustments
-
-👤 Skills demonstrated:
-
-Data Cleaning
-
-Exploratory Data Analysis
-
-Feature Engineering
-
-Data Visualization
-
-Machine Learning
-
-Business Insights
+## Interactive Dashboard
+The project includes a Streamlit dashboard to explore salary trends interactively.
+Run locally:
+streamlit run streamlit_dashboard.py
