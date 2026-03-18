@@ -20,6 +20,7 @@ This project demonstrates a complete data analytics workflow including data clea
 The analysis uses Python-based data science tools to uncover patterns and generate business insights.
 
 ### 📂 Project Structure
+```
 DataScience-Salary-Analysis
 │
 ├── data
@@ -46,6 +47,7 @@ DataScience-Salary-Analysis
 └── reports
     ├── presentation.pptx
     ├── analytics_report.docx
+```
 
 ### 🧰 Tools & Technologies
 - Python
